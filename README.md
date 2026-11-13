@@ -7,7 +7,7 @@ Jobs are deduplicated by canonical application URL. Roles without a source-provi
 
 ## Sources and access policy
 
-The updater uses only public career pages or public job-board endpoints. It checks each endpoint's `robots.txt` before every fetch, sends an identifying User-Agent, uses no login, bypass, proxy, or CAPTCHA solving, and skips a source when robots.txt disallows it. Robots compliance is not legal advice; each source's live check and endpoint are recorded in [`data/source_status.json`](data/source_status.json).
+The updater uses only public career pages or public job-board endpoints. It checks each endpoint's `robots.txt` before every fetch, sends an identifying User-Agent, uses no login, bypass, proxy, or CAPTCHA solving, and skips a source when robots.txt disallows it. Each source's live check and endpoint are recorded in [`data/source_status.json`](data/source_status.json).
 
 | Source | Official careers page | Public endpoint | Robots check | Roles |
 | --- | --- | --- | --- | ---: |
