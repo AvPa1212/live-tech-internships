@@ -35,7 +35,7 @@ SOURCES = [
         "url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
         "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
         "kind": "workday",
-        "payload": {"appliedFacets": {}, "limit": 100, "offset": 0, "searchText": "intern"},
+        "payload": {"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": ""},
         "company": "NVIDIA",
     },
     {
@@ -52,9 +52,9 @@ SOURCES = [
     },
     {
         "name": "Microsoft Careers",
-        "url": "https://apply.careers.microsoft.com/careers?query=intern",
+        "url": "https://gcsservices.careers.microsoft.com/search/api/v1/search?pg=1&pgSz=100&query=intern",
         "careers_url": "https://careers.microsoft.com/",
-        "kind": "jsonld",
+        "kind": "microsoft",
     },
     {
         "name": "Meta Careers",
@@ -294,6 +294,32 @@ def parse_workday(source: str, payload: dict[str, object], company: str) -> list
     return jobs
 
 
+def parse_microsoft(payload: dict[str, object]) -> list[dict[str, object]]:
+    jobs = []
+    result = payload.get("operationResult", {}).get("result", {}) if isinstance(payload.get("operationResult"), dict) else {}
+    for item in result.get("jobs", []):
+        if not isinstance(item, dict):
+            continue
+        properties = item.get("properties", {})
+        if not isinstance(properties, dict):
+            properties = {}
+        job_id = item.get("jobId") or properties.get("jobId")
+        locations = properties.get("locations") or properties.get("primaryLocation")
+        if isinstance(locations, list):
+            locations = ", ".join(str(location) for location in locations)
+        job = normalize(
+            source="Microsoft Careers",
+            company="Microsoft",
+            title=item.get("title"),
+            location=locations,
+            url=f"https://apply.careers.microsoft.com/careers/job/{job_id}" if job_id else None,
+            posted=item.get("postingDate"),
+        )
+        if job and re.search(r"\bintern(ship)?\b|\bco-?op\b", str(job["title"]), re.I):
+            jobs.append(job)
+    return jobs
+
+
 def parse_jsonld(source: str, text: str) -> list[dict[str, object]]:
     jobs = []
     scripts = re.findall(
@@ -401,6 +427,8 @@ def collect(source: dict[str, object]) -> tuple[list[dict[str, object]], dict[st
         jobs = parse_workday(str(source["name"]), json.loads(text), str(source["company"]))
     elif kind == "greenhouse":
         jobs = parse_greenhouse(str(source["name"]), json.loads(text))
+    elif kind == "microsoft":
+        jobs = parse_microsoft(json.loads(text))
     elif kind == "jsonld":
         jobs = parse_jsonld(str(source["name"]), text)
     else:
