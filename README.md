@@ -1,7 +1,7 @@
 # Live Tech Internships
 
-> **4,000 newest open roles** (of 6,597 collected), sorted by reported posting date.
-> Last updated: **2026-11-13 16:02 UTC**
+> **4,000 newest open roles** (of 6,617 collected), sorted by reported posting date.
+> Last updated: **2026-11-13 16:03 UTC**
 
 Jobs are deduplicated by canonical application URL. Roles without a source-provided posting date appear last. The table is capped at the newest 4,000 roles so GitHub can render the README; the complete normalized snapshot is in [`data/jobs.json`](data/jobs.json).
 
@@ -12,10 +12,10 @@ The updater uses only public career pages or public job-board endpoints. It chec
 | Source | Official careers page | Public endpoint | Robots check | Roles |
 | --- | --- | --- | --- | ---: |
 | Amazon Jobs | [careers](https://www.amazon.jobs/) | [endpoint](https://www.amazon.jobs/en/search.json?base_query=intern&loc_query=United%20States&sort=recent) | allowed: robots.txt allows this public URL | 10 |
-| NVIDIA Careers | [careers](https://www.nvidia.com/en-us/about-nvidia/careers/) | [endpoint](https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs) | allowed: fetch failed | 0 |
+| NVIDIA Careers | [careers](https://www.nvidia.com/en-us/about-nvidia/careers/) | [endpoint](https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs) | allowed: robots.txt allows this public URL | 20 |
 | Google Careers | [careers](https://careers.google.com/) | [endpoint](https://careers.google.com/jobs/results/?q=intern) | allowed: robots.txt allows this public URL | 0 |
 | Apple Jobs | [careers](https://jobs.apple.com/) | [endpoint](https://jobs.apple.com/en-us/search?search=intern) | allowed: robots.txt allows this public URL | 0 |
-| Microsoft Careers | [careers](https://careers.microsoft.com/) | [endpoint](https://apply.careers.microsoft.com/careers?query=intern) | skipped: robots.txt disallows /careers | 0 |
+| Microsoft Careers | [careers](https://careers.microsoft.com/) | [endpoint](https://gcsservices.careers.microsoft.com/search/api/v1/search?pg=1&pgSz=100&query=intern) | allowed: fetch failed | 0 |
 | Meta Careers | [careers](https://www.metacareers.com/) | [endpoint](https://www.metacareers.com/jobs?teams[0]=intern) | allowed: robots.txt allows this public URL | 0 |
 | Tesla Careers | [careers](https://www.tesla.com/careers/) | [endpoint](https://www.tesla.com/careers/search/?query=intern) | skipped: robots.txt disallows /careers/search/ | 0 |
 | IBM Careers | [careers](https://www.ibm.com/careers/) | [endpoint](https://www.ibm.com/careers/search?q=intern) | allowed: robots.txt allows this public URL | 0 |
@@ -416,7 +416,7 @@ The updater uses only public career pages or public job-board endpoints. It chec
 | Warner Bros. Discovery | [WB Games Production Co-op: Needham, MA - January-May 2027](https://zapply.jobs/l/d/workday-warnerbros-global-R000109900?s=gh-internships-2027) | MA Needham 117 Kendrick St | 2026-11-12 (Posted yesterday) | DereC4 |
 | Western Digital | [Summer 2027 Intern - Software Engineering](https://jobs.smartrecruiters.com/WesternDigital/744000160975819-summer-2027-intern-software-engineering?oga=true) | San Jose, CA | 2026-11-12 (Posted yesterday) | DereC4 |
 | Woolpert | [Aviation Modeling & Simulation Intern](https://job-boards.greenhouse.io/woolpert/jobs/4430700009?utm_source=Simplify&ref=Simplify) | San Rafael, CA Berkeley, CA | 2026-11-12 (Posted yesterday) | DereC4 |
-| Stripe | [Software Engineer, Intern (Summer)](https://stripe.com/jobs/search?gh_jid=8128745) | San Francisco, Seattle, New York City | 2026-11-11 (Posted 2 days ago) | Stripe Careers |
+| Stripe | [Software Engineer, Intern (Summer)](https://stripe.com/jobs/search?gh_jid=8130805) | Toronto | 2026-11-11 (Posted 2 days ago) | Stripe Careers |
 | Globalhr | [Software Engineering Intern (Summer 2027)](https://www.dreamworkhq.com/job/7a52f660-52c3-4eda-a38b-957c64ad823a?utm_source=github&utm_campaign=gh-tech-internships) | US-UT-WEST VALLEY CITY-338 ~ 1127 & 1128 w 2400 S ~ BLDG 338 | 2026-11-11 (Posted 2 days ago) | Dreamwork |
 | North America 2027 | [Platform Solutions Product Management Intern](https://www.dreamworkhq.com/job/a856a3c3-7d7d-4c63-9129-55b8b924eecb?utm_source=github&utm_campaign=gh-tech-internships) | Cary, NC | 2026-11-11 (Posted 2 days ago) | Dreamwork |
 | International Motors | [IT Security Intern](https://www.dreamworkhq.com/job/bbbd0fbe-2a7f-46ca-ab01-e7c644641e22?utm_source=github&utm_campaign=gh-tech-internships) | International WHQ (Lisle) | 2026-11-11 (Posted 2 days ago) | Dreamwork |
@@ -1738,8 +1738,8 @@ The updater uses only public career pages or public job-board endpoints. It chec
 | Zoox | [Software Engineer Intern - Software Systems](https://jobs.lever.co/zoox/8b32157b-ab44-4078-85ea-1d8d7b747a20/apply?utm_source=Simplify&ref=Simplify) | Foster City, CA | 2026-11-06 (Posted 7 days ago) | DereC4 |
 | Datadog | [Applied Science Intern](https://careers.datadoghq.com/detail/8181440/?gh_jid=8181440) | Paris, France | 2026-11-05 (Posted 8 days ago) | Datadog Careers |
 | Datadog | [IT Support Technician Intern](https://careers.datadoghq.com/detail/8129799/?gh_jid=8129799) | Paris, France | 2026-11-05 (Posted 8 days ago) | Datadog Careers |
-| Datadog | [Software Engineering Intern](https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161) | Madrid, Spain | 2026-11-05 (Posted 8 days ago) | Datadog Careers |
 | Datadog | [Software Engineering Intern](https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186) | Paris, France | 2026-11-05 (Posted 8 days ago) | Datadog Careers |
+| Datadog | [Software Engineering Intern](https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161) | Madrid, Spain | 2026-11-05 (Posted 8 days ago) | Datadog Careers |
 | Datadog | [Software Engineering Intern (Summer)](https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118) | Boston, Massachusetts, USA; New York, New York, USA | 2026-11-05 (Posted 8 days ago) | Datadog Careers |
 | Figma | [PhD Intern - Software Engineer - Interaction Design 🎓](https://boards.greenhouse.io/figma/jobs/6241542004?utm_source=Simplify&ref=Simplify) | SF NYC | 2026-11-05 (Posted 8 days ago) | DereC4 |
 | Coinbase | [Software Engineer Intern](https://www.coinbase.com/careers/positions/8175873?gh_jid=8175873) | Hybrid - Singapore | 2026-11-05 (Posted 8 days ago) | Coinbase Careers |

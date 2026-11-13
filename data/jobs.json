@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T16:02:09.641102+00:00",
-  "count": 6597,
+  "generated_at": "2026-11-13T16:03:15.986651+00:00",
+  "count": 6617,
   "jobs": [
     {
       "company": "Aurora Innovation",
@@ -3029,8 +3029,8 @@
     {
       "company": "Stripe",
       "title": "Software Engineer, Intern (Summer)",
-      "location": "San Francisco, Seattle, New York City",
-      "url": "https://stripe.com/jobs/search?gh_jid=8128745",
+      "location": "Toronto",
+      "url": "https://stripe.com/jobs/search?gh_jid=8130805",
       "posted_at": "2026-11-11",
       "source": "Stripe Careers"
     },
@@ -13605,16 +13605,16 @@
     {
       "company": "Datadog",
       "title": "Software Engineering Intern",
-      "location": "Madrid, Spain",
-      "url": "https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161",
+      "location": "Paris, France",
+      "url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186",
       "posted_at": "2026-11-05",
       "source": "Datadog Careers"
     },
     {
       "company": "Datadog",
       "title": "Software Engineering Intern",
-      "location": "Paris, France",
-      "url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186",
+      "location": "Madrid, Spain",
+      "url": "https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161",
       "posted_at": "2026-11-05",
       "source": "Datadog Careers"
     },
@@ -52721,6 +52721,166 @@
       "url": "https://www.amazon.jobs/en/jobs/10601090/pathways-operations-manager-intern-summer-2027-canada-wide-opportunities",
       "posted_at": null,
       "source": "Amazon Jobs"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, Distributed Systems Engineering - DGX Cloud",
+      "location": "2 Locations",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/Senior-Software-Engineer--Distributed-Systems-Engineer---DGX-Cloud_JR2026619",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Global Commodity Manager, Passive Electrical Commodity",
+      "location": "China, Shenzhen",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/China-Shenzhen/Global-Commodity-Manager--Passive-Electrical-Commodity_JR2027189",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior AI Engineer \u2013 Palantir Foundry and AIP Forward Deployed Engineer",
+      "location": "China, Shenzhen",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/China-Shenzhen/Senior-AI-Engineer---Palantir-Foundry-and-AIP-Forward-Deployed-Engineer_JR2021714",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Software Engineering Intern, NCCL - 2027",
+      "location": "2 Locations",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/China-Shanghai/Software-Engineering-Intern--NCCL---2027_JR2029488",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Software Engineering Intern, Neural Reconstruction and Rendering - 2027",
+      "location": "China, Shanghai",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/China-Shanghai/Software-Engineering-Intern--Neural-Reconstruction-and-Rendering---2027_JR2029925",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Test Platform Technical Leader, CPO",
+      "location": "Israel, Yokneam",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/Israel-Yokneam/Senior-Test-Platform-Technical-Leader--CPO_JR2027946",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Network Infrastructure Engineer",
+      "location": "5 Locations",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/India-Remote/Senior-Network-Infrastructure-Engineer_JR2015526",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Corporate Development Manager",
+      "location": "US, CA, Santa Clara",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/Corporate-Development-Manager_JR2028165-1",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Principal Engineer, Security Architecture - DGX Cloud",
+      "location": "US, WA, Remote",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-WA-Remote/Principal-Engineer--Security-Architecture---DGX-Cloud_JR2026132",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Principal Product Manager - NVIDIA Data Services",
+      "location": "2 Locations",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/Principal-Product-Manager---NVIDIA-Data-Services_JR2029673",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, Nix Packaging and Release Automation",
+      "location": "US, CA, Remote",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Remote/Senior-Software-Engineer--Nix-Packaging-and-Release-Automation_JR2029346",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Offensive Security Engineer \u2013 Data Center Systems",
+      "location": "5 Locations",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/Senior-Offensive-Security-Engineer---Data-Center-Systems_JR2029912",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer - DGX Cloud",
+      "location": "2 Locations",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/Senior-Software-Engineer---DGX-Cloud_JR2028688-1",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Security Firmware Engineer, Data Center Systems",
+      "location": "6 Locations",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/Senior-Security-Firmware-Engineer--Data-Center-Systems_JR2029570",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Software Engineer, Resilience Engineering - DGX Cloud",
+      "location": "2 Locations",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/Senior-Software-Engineer--Resilience-Engineering---DGX-Cloud_JR2029678",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Manager, Incident Management - DGX Cloud Resilience Engineering",
+      "location": "US, CA, Santa Clara",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/Manager--Incident-Management---DGX-Cloud-Resilience-Engineering_JR2029685",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Manager, Developer Tooling and QE",
+      "location": "US, CA, Santa Clara",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/Senior-Manager--Developer-Tooling-and-QE_JR2029680",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Quantum Applied Research Scientist, Physics Modeling",
+      "location": "3 Locations",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-WA-Redmond/Senior-Quantum-Applied-Research-Scientist--Physics-Modeling_JR2019518",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Machine Learning Engineer, Perception - Autonomous Driving",
+      "location": "3 Locations",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/Senior-Machine-Learning-Engineer--Perception---Autonomous-Driving_JR2018915",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
+    },
+    {
+      "company": "NVIDIA",
+      "title": "Senior Technical Program Manager, OEM Enablement",
+      "location": "2 Locations",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/Technical-Program-Manager--OEM-Enablement_JR2028754",
+      "posted_at": null,
+      "source": "NVIDIA Careers"
     },
     {
       "company": "APEX Analytix",
