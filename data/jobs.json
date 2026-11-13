@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T15:46:40.337296+00:00",
-  "count": 6549,
+  "generated_at": "2026-11-13T16:02:09.641102+00:00",
+  "count": 6597,
   "jobs": [
     {
       "company": "Aurora Innovation",
@@ -3025,6 +3025,14 @@
       "url": "https://job-boards.greenhouse.io/woolpert/jobs/4430700009?utm_source=Simplify&ref=Simplify",
       "posted_at": "2026-11-12",
       "source": "DereC4"
+    },
+    {
+      "company": "Stripe",
+      "title": "Software Engineer, Intern (Summer)",
+      "location": "San Francisco, Seattle, New York City",
+      "url": "https://stripe.com/jobs/search?gh_jid=8128745",
+      "posted_at": "2026-11-11",
+      "source": "Stripe Careers"
     },
     {
       "company": "Globalhr",
@@ -6139,6 +6147,22 @@
       "source": "DereC4"
     },
     {
+      "company": "Coinbase",
+      "title": "Institutional Operations Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175569?gh_jid=8175569",
+      "posted_at": "2026-11-10",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Strategic Sourcing Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8376084?gh_jid=8376084",
+      "posted_at": "2026-11-10",
+      "source": "Coinbase Careers"
+    },
+    {
       "company": "Moderna",
       "title": "2027 Co-Op, mRNA Design Engineering",
       "location": "Cambridge, Massachusetts",
@@ -9073,6 +9097,78 @@
       "url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2507010?utm_source=Simplify&ref=Simplify",
       "posted_at": "2026-11-10",
       "source": "DereC4"
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Hardware Systems Engineer",
+      "location": "Hybrid",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8325821?gh_jid=8325821",
+      "posted_at": "2026-11-09",
+      "source": "Cloudflare Careers"
+    },
+    {
+      "company": "Cloudflare",
+      "title": "People Team Intern, HR Transformation (Winter 2027)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8350166?gh_jid=8350166",
+      "posted_at": "2026-11-09",
+      "source": "Cloudflare Careers"
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Product Manager Intern (2027) - Austin, TX",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8274790?gh_jid=8274790",
+      "posted_at": "2026-11-09",
+      "source": "Cloudflare Careers"
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Product Manager Intern (2027) - Lisbon, PT",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8332008?gh_jid=8332008",
+      "posted_at": "2026-11-09",
+      "source": "Cloudflare Careers"
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Product Manager Intern (2027) - London, UK",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8328914?gh_jid=8328914",
+      "posted_at": "2026-11-09",
+      "source": "Cloudflare Careers"
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Software Engineer Intern (2027)",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8245197?gh_jid=8245197",
+      "posted_at": "2026-11-09",
+      "source": "Cloudflare Careers"
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Software Engineer Intern (2027) - Austin, TX",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8199958?gh_jid=8199958",
+      "posted_at": "2026-11-09",
+      "source": "Cloudflare Careers"
+    },
+    {
+      "company": "Cloudflare",
+      "title": "Software Engineer Intern (2027) - London, UK",
+      "location": "In-Office",
+      "url": "https://boards.greenhouse.io/cloudflare/jobs/8245211?gh_jid=8245211",
+      "posted_at": "2026-11-09",
+      "source": "Cloudflare Careers"
+    },
+    {
+      "company": "Datadog",
+      "title": "Research Science Intern (PhD)",
+      "location": "New York, New York, USA; Pittsburgh, Pennsylvania, USA",
+      "url": "https://careers.datadoghq.com/detail/8203657/?gh_jid=8203657",
+      "posted_at": "2026-11-09",
+      "source": "Datadog Careers"
     },
     {
       "company": "Rb",
@@ -13491,6 +13587,62 @@
       "source": "DereC4"
     },
     {
+      "company": "Datadog",
+      "title": "Applied Science Intern",
+      "location": "Paris, France",
+      "url": "https://careers.datadoghq.com/detail/8181440/?gh_jid=8181440",
+      "posted_at": "2026-11-05",
+      "source": "Datadog Careers"
+    },
+    {
+      "company": "Datadog",
+      "title": "IT Support Technician Intern",
+      "location": "Paris, France",
+      "url": "https://careers.datadoghq.com/detail/8129799/?gh_jid=8129799",
+      "posted_at": "2026-11-05",
+      "source": "Datadog Careers"
+    },
+    {
+      "company": "Datadog",
+      "title": "Software Engineering Intern",
+      "location": "Madrid, Spain",
+      "url": "https://careers.datadoghq.com/detail/8114161/?gh_jid=8114161",
+      "posted_at": "2026-11-05",
+      "source": "Datadog Careers"
+    },
+    {
+      "company": "Datadog",
+      "title": "Software Engineering Intern",
+      "location": "Paris, France",
+      "url": "https://careers.datadoghq.com/detail/8114186/?gh_jid=8114186",
+      "posted_at": "2026-11-05",
+      "source": "Datadog Careers"
+    },
+    {
+      "company": "Datadog",
+      "title": "Software Engineering Intern (Summer)",
+      "location": "Boston, Massachusetts, USA; New York, New York, USA",
+      "url": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118",
+      "posted_at": "2026-11-05",
+      "source": "Datadog Careers"
+    },
+    {
+      "company": "Figma",
+      "title": "PhD Intern - Software Engineer - Interaction Design \ud83c\udf93",
+      "location": "SF NYC",
+      "url": "https://boards.greenhouse.io/figma/jobs/6241542004?utm_source=Simplify&ref=Simplify",
+      "posted_at": "2026-11-05",
+      "source": "DereC4"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Software Engineer Intern",
+      "location": "Hybrid - Singapore",
+      "url": "https://www.coinbase.com/careers/positions/8175873?gh_jid=8175873",
+      "posted_at": "2026-11-05",
+      "source": "Coinbase Careers"
+    },
+    {
       "company": "Tenet Health",
       "title": "Workforce Data & Analytics Intern \u2013 Summer 2027 \u2013 Onsite in Dallas, TX",
       "location": "Dallas, TX, United States",
@@ -14575,14 +14727,6 @@
       "title": "Machine Learning Science Intern \ud83c\udf93",
       "location": "London, UK",
       "url": "https://expedia.wd108.myworkdayjobs.com/private/job/UK---London/Applied-Science-Intern---PhD---2027---London_R-110737-2?utm_source=Simplify&ref=Simplify",
-      "posted_at": "2026-11-05",
-      "source": "DereC4"
-    },
-    {
-      "company": "Figma",
-      "title": "PhD Intern - Software Engineer - Interaction Design \ud83c\udf93",
-      "location": "SF NYC",
-      "url": "https://boards.greenhouse.io/figma/jobs/6241542004?utm_source=Simplify&ref=Simplify",
       "posted_at": "2026-11-05",
       "source": "DereC4"
     },
@@ -19451,14 +19595,6 @@
       "source": "DereC4"
     },
     {
-      "company": "Stripe",
-      "title": "Machine Learning Engineer Intern \ud83c\udf93",
-      "location": "Seattle, WA SF NYC",
-      "url": "https://stripe.com/jobs/search?gh_jid=8328662&utm_source=Simplify&ref=Simplify",
-      "posted_at": "2026-10-31",
-      "source": "DereC4"
-    },
-    {
       "company": "Firework",
       "title": "Data Engineer Intern",
       "location": "San Mateo, California",
@@ -20251,6 +20387,166 @@
       "source": "DereC4"
     },
     {
+      "company": "Coinbase",
+      "title": "Acceleration Programs Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175363?gh_jid=8175363",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Accounting Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8173991?gh_jid=8173991",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Analytics Engineer Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175471?gh_jid=8175471",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Business Controller Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175366?gh_jid=8175366",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Credit Risk Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175369?gh_jid=8175369",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Data Engineer Intern",
+      "location": "Hybrid - San Francisco, CA",
+      "url": "https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Data Science Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175462?gh_jid=8175462",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Employee and Workplace Experience Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175429?gh_jid=8175429",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Forward Deployed Engineer Intern (HR Technology)",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175510?gh_jid=8175510",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Internal Audit Analytics Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8221238?gh_jid=8221238",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Internal Audit Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175432?gh_jid=8175432",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Learning & Development Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175514?gh_jid=8175514",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Machine Learning Engineer Intern",
+      "location": "Hybrid - San Francisco, CA",
+      "url": "https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Payment Risk Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175447?gh_jid=8175447",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "People Analytics Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175517?gh_jid=8175517",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Policy Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175556?gh_jid=8175556",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Product Design Intern",
+      "location": "Hybrid - San Francisco, CA",
+      "url": "https://www.coinbase.com/careers/positions/8175339?gh_jid=8175339",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Real Estate & Builds Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175507?gh_jid=8175507",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Tax Information Reporting Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8221241?gh_jid=8221241",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Tax Operations Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8175453?gh_jid=8175453",
+      "posted_at": "2026-10-30",
+      "source": "Coinbase Careers"
+    },
+    {
       "company": "Zoox",
       "title": "Software Engineer Intern, Software Platforms & Product [Summer 2027]",
       "location": "Foster City, CA",
@@ -20999,22 +21295,6 @@
       "title": "Client Data & Engineering Group Summer Intern - Chief Client Office",
       "location": "NYC",
       "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Chief-Client-Office---Client-Data---Engineering-Group-Summer-Internship-Program-2027-New-York-City_JR-0000137731?utm_source=Simplify&ref=Simplify",
-      "posted_at": "2026-10-30",
-      "source": "DereC4"
-    },
-    {
-      "company": "Cloudflare",
-      "title": "Product Manager Intern",
-      "location": "Austin, TX",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8274790?utm_source=Simplify&ref=Simplify",
-      "posted_at": "2026-10-30",
-      "source": "DereC4"
-    },
-    {
-      "company": "Cloudflare",
-      "title": "Product Manager Intern",
-      "location": "London, UK",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8328914?utm_source=Simplify&ref=Simplify",
       "posted_at": "2026-10-30",
       "source": "DereC4"
     },
@@ -22305,6 +22585,14 @@
       "url": "https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Always-AR-Bentonville-Home-Office/XMLNAME--USA--Summer-2027-Corporate-Intern---Data---Tech-Transformation-intern_R-2690457-1?utm_source=Simplify&ref=Simplify",
       "posted_at": "2026-10-29",
       "source": "DereC4"
+    },
+    {
+      "company": "Figma",
+      "title": "PhD Intern, Security Engineer (2027)",
+      "location": "San Francisco, CA \u2022 New York, NY",
+      "url": "https://boards.greenhouse.io/figma/jobs/6238015004?gh_jid=6238015004",
+      "posted_at": "2026-10-28",
+      "source": "Figma Careers"
     },
     {
       "company": "Nintendo",
@@ -23777,6 +24065,70 @@
       "url": "https://uline.wd1.myworkdayjobs.com/en-US/Uline_Careers/job/Pleasant-Prairie-WI/International-Operations-Analyst-Internship---Summer-2027_R268694?utm_source=Simplify&ref=Simplify",
       "posted_at": "2026-10-28",
       "source": "DereC4"
+    },
+    {
+      "company": "Figma",
+      "title": "Account Executive, SMB",
+      "location": "San Francisco, CA \u2022 New York, NY",
+      "url": "https://boards.greenhouse.io/figma/jobs/5694259004?gh_jid=5694259004",
+      "posted_at": "2026-10-27",
+      "source": "Figma Careers"
+    },
+    {
+      "company": "Figma",
+      "title": "Data Engineer Intern (2027)",
+      "location": "San Francisco, CA \u2022 New York, NY",
+      "url": "https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004",
+      "posted_at": "2026-10-27",
+      "source": "Figma Careers"
+    },
+    {
+      "company": "Figma",
+      "title": "PhD Intern, AI Applied Scientist (2027)",
+      "location": "San Francisco, CA \u2022 New York, NY",
+      "url": "https://boards.greenhouse.io/figma/jobs/6207801004?gh_jid=6207801004",
+      "posted_at": "2026-10-27",
+      "source": "Figma Careers"
+    },
+    {
+      "company": "Figma",
+      "title": "PhD Intern, Data Science (2027)",
+      "location": "San Francisco, CA \u2022 New York, NY",
+      "url": "https://boards.greenhouse.io/figma/jobs/6200626004?gh_jid=6200626004",
+      "posted_at": "2026-10-27",
+      "source": "Figma Careers"
+    },
+    {
+      "company": "Figma",
+      "title": "PhD Intern, Software Engineer - Graphics (2027)",
+      "location": "San Francisco, CA \u2022 New York, NY",
+      "url": "https://boards.greenhouse.io/figma/jobs/6219995004?gh_jid=6219995004",
+      "posted_at": "2026-10-27",
+      "source": "Figma Careers"
+    },
+    {
+      "company": "Figma",
+      "title": "Product Design Intern (2027)",
+      "location": "San Francisco, CA \u2022 New York, NY",
+      "url": "https://boards.greenhouse.io/figma/jobs/6180005004?gh_jid=6180005004",
+      "posted_at": "2026-10-27",
+      "source": "Figma Careers"
+    },
+    {
+      "company": "Figma",
+      "title": "Software Engineer Intern (London, United Kingdom) (Summer 2027)",
+      "location": "London, England",
+      "url": "https://boards.greenhouse.io/figma/jobs/6152695004?gh_jid=6152695004",
+      "posted_at": "2026-10-27",
+      "source": "Figma Careers"
+    },
+    {
+      "company": "Figma",
+      "title": "Software Engineer Intern (Summer 2027)",
+      "location": "San Francisco, CA \u2022 New York, NY",
+      "url": "https://boards.greenhouse.io/figma/jobs/6143238004?gh_jid=6143238004",
+      "posted_at": "2026-10-27",
+      "source": "Figma Careers"
     },
     {
       "company": "Sagesure",
@@ -26017,6 +26369,14 @@
       "url": "https://jobs.lever.co/upscale-ai/2bad3e47-6c00-4ec2-94b5-feb4009619c9/apply?utm_source=Simplify&ref=Simplify",
       "posted_at": "2026-10-24",
       "source": "DereC4"
+    },
+    {
+      "company": "Reddit",
+      "title": "Senior Software Engineer - DevX",
+      "location": "Remote - United States",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7950520",
+      "posted_at": "2026-10-23",
+      "source": "Reddit Careers"
     },
     {
       "company": "Wearedream",
@@ -28857,6 +29217,14 @@
       "url": "https://zillow.wd5.myworkdayjobs.com/en-US/Zillow_Group_External/job/Seattle-WA-2nd-Ave/Software-Development-Engineer---Intern_P751630?utm_source=Simplify&ref=Simplify",
       "posted_at": "2026-10-21",
       "source": "DereC4"
+    },
+    {
+      "company": "Coinbase",
+      "title": "Software Engineer Intern",
+      "location": "Hybrid - San Francisco, CA",
+      "url": "https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315",
+      "posted_at": "2026-10-20",
+      "source": "Coinbase Careers"
     },
     {
       "company": "NLR",
@@ -32719,14 +33087,6 @@
       "title": "Forward Deployed AI Engineer Intern \ud83c\udf93",
       "location": "4 locationsBoston, MA LA Chicago, IL NYC",
       "url": "https://careers.bcg.com/global/en/job/59702?utm_source=Simplify&ref=Simplify",
-      "posted_at": "2026-10-14",
-      "source": "DereC4"
-    },
-    {
-      "company": "Figma",
-      "title": "PhD Intern - Software Engineer - Graphics - 2027",
-      "location": "San Francisco, CA +1",
-      "url": "https://boards.greenhouse.io/figma/jobs/6219995004?gh_jid=6219995004",
       "posted_at": "2026-10-14",
       "source": "DereC4"
     },
@@ -39515,14 +39875,6 @@
       "source": "Zshah"
     },
     {
-      "company": "Figma",
-      "title": "Data Engineer Intern (2027)",
-      "location": "San Francisco, CA \u2022 New York, NY",
-      "url": "https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004",
-      "posted_at": "2026-09-23",
-      "source": "Zshah"
-    },
-    {
       "company": "Formlabs",
       "title": "Embedded Software Intern - Summer 2027",
       "location": "Somerville, MA",
@@ -41003,14 +41355,6 @@
       "source": "DereC4"
     },
     {
-      "company": "Cloudflare",
-      "title": "Software Engineer Intern - 2027 - Austin - TX",
-      "location": "Austin, TX",
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/8199958?gh_jid=8199958",
-      "posted_at": "2026-09-18",
-      "source": "DereC4"
-    },
-    {
       "company": "ConductorAI",
       "title": "Software Engineer Intern",
       "location": "New York City, NY",
@@ -42211,14 +42555,6 @@
       "source": "DereC4"
     },
     {
-      "company": "Figma",
-      "title": "Software Engineer Intern - Summer 2027",
-      "location": "San Francisco, CA +1",
-      "url": "https://boards.greenhouse.io/figma/jobs/6143238004?gh_jid=6143238004",
-      "posted_at": "2026-09-15",
-      "source": "DereC4"
-    },
-    {
       "company": "SingleStore",
       "title": "Software Engineer Intern- Engine-2027",
       "location": "San Francisco, CA",
@@ -43371,6 +43707,14 @@
       "source": "DereC4"
     },
     {
+      "company": "Coinbase",
+      "title": "Sales Intern",
+      "location": "Hybrid - New York, NY",
+      "url": "https://www.coinbase.com/careers/positions/8187551?gh_jid=8187551",
+      "posted_at": "2026-09-10",
+      "source": "Coinbase Careers"
+    },
+    {
       "company": "Allegion",
       "title": "Summer Intern - Product Assurance Test Engineer",
       "location": "Colorado Springs, CO",
@@ -43569,14 +43913,6 @@
       "url": "https://jobs.ashbyhq.com/bedrock-robotics/c51d682e-58ee-44de-886f-4cfacb56d2e1",
       "posted_at": "2026-09-10",
       "source": "Zshah"
-    },
-    {
-      "company": "Coinbase",
-      "title": "Software Engineer Intern",
-      "location": "San Francisco, CA",
-      "url": "https://www.coinbase.com/careers/positions/8168315?gh_jid=8168315",
-      "posted_at": "2026-09-10",
-      "source": "DereC4"
     },
     {
       "company": "National Information Solutions Cooperative (NISC)",
@@ -44219,14 +44555,6 @@
       "source": "Zshah"
     },
     {
-      "company": "Datadog",
-      "title": "Software Engineering Intern - Summer",
-      "location": "Boston, MA +1",
-      "url": "https://careers.datadoghq.com/detail/8052118/?gh_jid=8052118",
-      "posted_at": "2026-09-09",
-      "source": "DereC4"
-    },
-    {
       "company": "Eurofins",
       "title": "AI & Automation Intern",
       "location": "Barcelona, CT, International (ES)",
@@ -44507,6 +44835,14 @@
       "source": "DereC4"
     },
     {
+      "company": "Coinbase",
+      "title": "Associate Product Manager Intern",
+      "location": "Hybrid - San Francisco, CA",
+      "url": "https://www.coinbase.com/careers/positions/8168322?gh_jid=8168322",
+      "posted_at": "2026-09-08",
+      "source": "Coinbase Careers"
+    },
+    {
       "company": "M3USA",
       "title": "AI Engineering Intern (Remote)",
       "location": "Fort Washington, PA, United States",
@@ -44655,38 +44991,6 @@
       "title": "Computer Vision/Machine Learning Intern, 2027",
       "location": "Austin, TX",
       "url": "https://jobs.ashbyhq.com/allen-control-systems/a7831fef-7125-4c03-b828-5f0472989037",
-      "posted_at": "2026-09-08",
-      "source": "Zshah"
-    },
-    {
-      "company": "Coinbase",
-      "title": "Machine Learning Engineer Intern",
-      "location": "Hybrid - San Francisco, CA",
-      "url": "https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441",
-      "posted_at": "2026-09-08",
-      "source": "Zshah"
-    },
-    {
-      "company": "Coinbase",
-      "title": "Data Engineer Intern",
-      "location": "Hybrid - San Francisco, CA",
-      "url": "https://www.coinbase.com/careers/positions/8175459?gh_jid=8175459",
-      "posted_at": "2026-09-08",
-      "source": "Zshah"
-    },
-    {
-      "company": "Coinbase",
-      "title": "Data Science Intern",
-      "location": "Hybrid - New York, NY",
-      "url": "https://www.coinbase.com/careers/positions/8175462?gh_jid=8175462",
-      "posted_at": "2026-09-08",
-      "source": "Zshah"
-    },
-    {
-      "company": "Coinbase",
-      "title": "Analytics Engineer Intern",
-      "location": "Hybrid - New York, NY",
-      "url": "https://www.coinbase.com/careers/positions/8175471?gh_jid=8175471",
       "posted_at": "2026-09-08",
       "source": "Zshah"
     },
@@ -52337,6 +52641,86 @@
       "url": "https://www.dreamworkhq.com/job/d8528bfd-6cfa-4fed-8818-e2b14b0d050e?utm_source=github&utm_campaign=gh-tech-internships",
       "posted_at": "2016-02-24",
       "source": "Dreamwork"
+    },
+    {
+      "company": "Amazon",
+      "title": "Operations Intern - Belgium START DATE 2027, Amazon Logistics",
+      "location": "BE, VAN, Antwerp",
+      "url": "https://www.amazon.jobs/en/jobs/10604128/operations-intern-belgium-start-date-2027-amazon-logistics",
+      "posted_at": null,
+      "source": "Amazon Jobs"
+    },
+    {
+      "company": "Amazon",
+      "title": "2027 Software Dev Engineer Intern - Finland",
+      "location": "FI, Tampere",
+      "url": "https://www.amazon.jobs/en/jobs/10603649/2027-software-dev-engineer-intern-finland",
+      "posted_at": null,
+      "source": "Amazon Jobs"
+    },
+    {
+      "company": "Amazon",
+      "title": "Senior Product Manager, Production Planning Team, Global Finance Solutions",
+      "location": "CR, H, Heredia",
+      "url": "https://www.amazon.jobs/en/jobs/10603764/senior-product-manager-production-planning-team-global-finance-solutions",
+      "posted_at": null,
+      "source": "Amazon Jobs"
+    },
+    {
+      "company": "Amazon",
+      "title": "Data Engineer Internship",
+      "location": "GB, London",
+      "url": "https://www.amazon.jobs/en/jobs/10602219/data-engineer-internship",
+      "posted_at": null,
+      "source": "Amazon Jobs"
+    },
+    {
+      "company": "Amazon",
+      "title": "Data Engineer Internship",
+      "location": "LU, Luxembourg",
+      "url": "https://www.amazon.jobs/en/jobs/10602204/data-engineer-internship",
+      "posted_at": null,
+      "source": "Amazon Jobs"
+    },
+    {
+      "company": "Amazon",
+      "title": "Praktikum im Bereich Logistik - 2027",
+      "location": "DE, RP, Trierweiler",
+      "url": "https://www.amazon.jobs/en/jobs/10601157/praktikum-im-bereich-logistik-2027",
+      "posted_at": null,
+      "source": "Amazon Jobs"
+    },
+    {
+      "company": "Amazon",
+      "title": "Associate Solutions Architect Intern - Shanghai, Shanghai",
+      "location": "CN, 31, Shanghai",
+      "url": "https://www.amazon.jobs/en/jobs/10603937/associate-solutions-architect-intern-shanghai-shanghai",
+      "posted_at": null,
+      "source": "Amazon Jobs"
+    },
+    {
+      "company": "Amazon",
+      "title": "Associate Solutions Architect Intern - Beijing, Beijing",
+      "location": "CN, 13, Beijing",
+      "url": "https://www.amazon.jobs/en/jobs/10600886/associate-solutions-architect-intern-beijing-beijing",
+      "posted_at": null,
+      "source": "Amazon Jobs"
+    },
+    {
+      "company": "Amazon",
+      "title": "Associate Solutions Architect Intern - Shenzhen, Shenzhen",
+      "location": "CN, 44, Shenzhen",
+      "url": "https://www.amazon.jobs/en/jobs/10600880/associate-solutions-architect-intern-shenzhen-shenzhen",
+      "posted_at": null,
+      "source": "Amazon Jobs"
+    },
+    {
+      "company": "Amazon",
+      "title": "Pathways Operations Manager Intern \u2013 Summer 2027 (Canada-Wide Opportunities)",
+      "location": "CA, ON, Toronto",
+      "url": "https://www.amazon.jobs/en/jobs/10601090/pathways-operations-manager-intern-summer-2027-canada-wide-opportunities",
+      "posted_at": null,
+      "source": "Amazon Jobs"
     },
     {
       "company": "APEX Analytix",
