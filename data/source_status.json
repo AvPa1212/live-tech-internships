@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T16:03:15.986651+00:00",
+  "checked_at": "2026-11-13T21:56:29.169821+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -13,9 +13,10 @@
       "name": "NVIDIA Careers",
       "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
       "endpoint": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-      "policy_check": "robots.txt allows this public URL",
+      "policy_check": "fetch failed",
       "allowed": true,
-      "jobs": 20
+      "jobs": 0,
+      "error": "Unable to fetch https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs: HTTP Error 500: Internal Server Error"
     },
     {
       "name": "Google Careers",
@@ -106,7 +107,7 @@
       "endpoint": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 8
+      "jobs": 9
     },
     {
       "name": "Datadog Careers",
@@ -130,7 +131,7 @@
       "endpoint": "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 26
+      "jobs": 24
     },
     {
       "name": "Dropbox Careers",
@@ -154,7 +155,7 @@
       "endpoint": "https://raw.githubusercontent.com/dreamworkhq/Tech-Internships-2027/main/data/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2030
+      "jobs": 2032
     },
     {
       "name": "Zshah",
@@ -162,7 +163,7 @@
       "endpoint": "https://raw.githubusercontent.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/main/data/jobs.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 1278
+      "jobs": 1273
     },
     {
       "name": "Vansh",
@@ -170,7 +171,7 @@
       "endpoint": "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/.github/scripts/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2498
+      "jobs": 2489
     },
     {
       "name": "DereC4",
@@ -178,7 +179,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2905
+      "jobs": 2962
     }
   ]
 }
