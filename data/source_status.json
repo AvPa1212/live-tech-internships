@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T02:20:27.203767+00:00",
+  "checked_at": "2026-11-14T09:23:46.285019+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -16,7 +16,7 @@
       "policy_check": "fetch failed",
       "allowed": true,
       "jobs": 0,
-      "error": "Unable to fetch https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs: HTTP Error 521: <none>"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "name": "Google Careers",
@@ -72,10 +72,9 @@
       "name": "Intel Jobs",
       "careers_url": "https://jobs.intel.com/",
       "endpoint": "https://jobs.intel.com/en/search-jobs/intern/599/1",
-      "policy_check": "robots.txt disallows /en/search-jobs/intern/599/1",
-      "allowed": false,
-      "jobs": 0,
-      "error": "robots.txt disallows /en/search-jobs/intern/599/1"
+      "policy_check": "robots.txt allows this public URL",
+      "allowed": true,
+      "jobs": 0
     },
     {
       "name": "Salesforce Careers",
@@ -172,7 +171,7 @@
       "endpoint": "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/.github/scripts/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2479
+      "jobs": 2480
     },
     {
       "name": "DereC4",
@@ -180,7 +179,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2915
+      "jobs": 2910
     }
   ]
 }
