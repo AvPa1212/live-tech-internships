@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T09:23:46.285019+00:00",
+  "checked_at": "2026-11-14T16:05:26.975919+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -13,10 +13,10 @@
       "name": "NVIDIA Careers",
       "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
       "endpoint": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-      "policy_check": "fetch failed",
-      "allowed": true,
+      "policy_check": "robots.txt disallows /wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+      "allowed": false,
       "jobs": 0,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "robots.txt disallows /wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs"
     },
     {
       "name": "Google Careers",
@@ -179,7 +179,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2910
+      "jobs": 2952
     }
   ]
 }
