@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-15T15:37:17.212946+00:00",
+  "checked_at": "2026-11-15T20:59:55.271474+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -15,7 +15,7 @@
       "endpoint": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 19
+      "jobs": 20
     },
     {
       "name": "Google Careers",
@@ -154,7 +154,7 @@
       "endpoint": "https://raw.githubusercontent.com/dreamworkhq/Tech-Internships-2027/main/data/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2057
+      "jobs": 2097
     },
     {
       "name": "Zshah",
@@ -162,7 +162,7 @@
       "endpoint": "https://raw.githubusercontent.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/main/data/jobs.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 1272
+      "jobs": 1269
     },
     {
       "name": "Vansh",
@@ -170,7 +170,7 @@
       "endpoint": "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/.github/scripts/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2473
+      "jobs": 2475
     },
     {
       "name": "DereC4",
@@ -178,7 +178,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2934
+      "jobs": 2781
     }
   ]
 }
