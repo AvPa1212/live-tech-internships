@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-15T07:47:42.600348+00:00",
+  "checked_at": "2026-11-15T15:37:17.212946+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -15,7 +15,7 @@
       "endpoint": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 20
+      "jobs": 19
     },
     {
       "name": "Google Careers",
@@ -46,10 +46,9 @@
       "name": "Meta Careers",
       "careers_url": "https://www.metacareers.com/",
       "endpoint": "https://www.metacareers.com/jobs?teams[0]=intern",
-      "policy_check": "fetch failed",
+      "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 0,
-      "error": "Unable to fetch https://www.metacareers.com/jobs?teams[0]=intern: HTTP Error 429: Too Many Requests"
+      "jobs": 0
     },
     {
       "name": "Tesla Careers",
@@ -163,7 +162,7 @@
       "endpoint": "https://raw.githubusercontent.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/main/data/jobs.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 1270
+      "jobs": 1272
     },
     {
       "name": "Vansh",
@@ -171,7 +170,7 @@
       "endpoint": "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/.github/scripts/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2474
+      "jobs": 2473
     },
     {
       "name": "DereC4",
@@ -179,7 +178,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2941
+      "jobs": 2934
     }
   ]
 }
