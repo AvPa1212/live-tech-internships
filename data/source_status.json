@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16T00:58:08.635413+00:00",
+  "checked_at": "2026-11-16T07:55:03.539183+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -13,9 +13,10 @@
       "name": "NVIDIA Careers",
       "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
       "endpoint": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-      "policy_check": "robots.txt allows this public URL",
+      "policy_check": "fetch failed",
       "allowed": true,
-      "jobs": 20
+      "jobs": 0,
+      "error": "Unable to fetch https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs: HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Google Careers",
@@ -71,9 +72,10 @@
       "name": "Intel Jobs",
       "careers_url": "https://jobs.intel.com/",
       "endpoint": "https://jobs.intel.com/en/search-jobs/intern/599/1",
-      "policy_check": "robots.txt allows this public URL",
+      "policy_check": "fetch failed",
       "allowed": true,
-      "jobs": 0
+      "jobs": 0,
+      "error": "Unable to fetch https://jobs.intel.com/en/search-jobs/intern/599/1: HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Salesforce Careers",
@@ -162,7 +164,7 @@
       "endpoint": "https://raw.githubusercontent.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/main/data/jobs.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 1271
+      "jobs": 1243
     },
     {
       "name": "Vansh",
@@ -170,7 +172,7 @@
       "endpoint": "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/.github/scripts/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2479
+      "jobs": 2455
     },
     {
       "name": "DereC4",
@@ -178,7 +180,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2776
+      "jobs": 2761
     }
   ]
 }
