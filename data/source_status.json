@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16T07:55:03.539183+00:00",
+  "checked_at": "2026-11-16T18:25:33.864542+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -116,7 +116,7 @@
       "endpoint": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs?content=true",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 6
+      "jobs": 5
     },
     {
       "name": "Figma Careers",
@@ -172,7 +172,7 @@
       "endpoint": "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/.github/scripts/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2455
+      "jobs": 2436
     },
     {
       "name": "DereC4",
@@ -180,7 +180,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2761
+      "jobs": 2704
     }
   ]
 }
