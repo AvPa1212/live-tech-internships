@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T10:39:17.389639+00:00",
+  "checked_at": "2026-11-17T19:47:49.271620+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -13,10 +13,9 @@
       "name": "NVIDIA Careers",
       "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
       "endpoint": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-      "policy_check": "fetch failed",
+      "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 0,
-      "error": "Unable to fetch https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs: HTTP Error 429: Too Many Requests"
+      "jobs": 20
     },
     {
       "name": "Google Careers",
@@ -108,7 +107,7 @@
       "endpoint": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 9
+      "jobs": 10
     },
     {
       "name": "Datadog Careers",
@@ -132,7 +131,7 @@
       "endpoint": "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 24
+      "jobs": 23
     },
     {
       "name": "Dropbox Careers",
@@ -172,7 +171,7 @@
       "endpoint": "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/.github/scripts/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2450
+      "jobs": 2441
     },
     {
       "name": "DereC4",
@@ -180,7 +179,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2749
+      "jobs": 2715
     }
   ]
 }
