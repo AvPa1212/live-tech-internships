@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-17T19:47:49.271620+00:00",
+  "checked_at": "2026-11-18T02:23:03.177340+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -71,10 +71,9 @@
       "name": "Intel Jobs",
       "careers_url": "https://jobs.intel.com/",
       "endpoint": "https://jobs.intel.com/en/search-jobs/intern/599/1",
-      "policy_check": "fetch failed",
+      "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 0,
-      "error": "Unable to fetch https://jobs.intel.com/en/search-jobs/intern/599/1: HTTP Error 429: Too Many Requests"
+      "jobs": 0
     },
     {
       "name": "Salesforce Careers",
@@ -99,7 +98,7 @@
       "endpoint": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 37
+      "jobs": 36
     },
     {
       "name": "Cloudflare Careers",
@@ -107,7 +106,7 @@
       "endpoint": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 10
+      "jobs": 11
     },
     {
       "name": "Datadog Careers",
@@ -155,7 +154,7 @@
       "endpoint": "https://raw.githubusercontent.com/dreamworkhq/Tech-Internships-2027/main/data/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2103
+      "jobs": 2040
     },
     {
       "name": "Zshah",
@@ -171,7 +170,7 @@
       "endpoint": "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/.github/scripts/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2441
+      "jobs": 2459
     },
     {
       "name": "DereC4",
@@ -179,7 +178,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2715
+      "jobs": 2781
     }
   ]
 }
