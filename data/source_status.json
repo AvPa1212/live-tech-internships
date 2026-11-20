@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-20T01:13:54.034727+00:00",
+  "checked_at": "2026-11-20T09:08:49.090942+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -29,10 +29,9 @@
       "name": "Apple Jobs",
       "careers_url": "https://jobs.apple.com/",
       "endpoint": "https://jobs.apple.com/en-us/search?search=intern",
-      "policy_check": "fetch failed",
+      "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 0,
-      "error": "Unable to fetch https://jobs.apple.com/en-us/search?search=intern: The read operation timed out"
+      "jobs": 0
     },
     {
       "name": "Microsoft Careers",
@@ -171,7 +170,7 @@
       "endpoint": "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/.github/scripts/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2466
+      "jobs": 2477
     },
     {
       "name": "DereC4",
@@ -179,7 +178,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 3264
+      "jobs": 3288
     }
   ]
 }
