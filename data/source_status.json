@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T12:26:39.980949+00:00",
+  "checked_at": "2026-11-24T00:19:42.592188+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -98,7 +98,7 @@
       "endpoint": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 35
+      "jobs": 34
     },
     {
       "name": "Cloudflare Careers",
@@ -106,7 +106,7 @@
       "endpoint": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs?content=true",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 8
+      "jobs": 9
     },
     {
       "name": "Datadog Careers",
@@ -154,7 +154,7 @@
       "endpoint": "https://raw.githubusercontent.com/dreamworkhq/Tech-Internships-2027/main/data/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2048
+      "jobs": 1996
     },
     {
       "name": "Zshah",
@@ -170,7 +170,7 @@
       "endpoint": "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/.github/scripts/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2505
+      "jobs": 2493
     },
     {
       "name": "DereC4",
@@ -178,7 +178,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 3153
+      "jobs": 3116
     }
   ]
 }
