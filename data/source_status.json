@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-24T10:24:27.244552+00:00",
+  "checked_at": "2026-11-24T20:51:39.064514+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -98,7 +98,7 @@
       "endpoint": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs?content=true",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 34
+      "jobs": 32
     },
     {
       "name": "Cloudflare Careers",
@@ -178,7 +178,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 3118
+      "jobs": 3096
     }
   ]
 }
