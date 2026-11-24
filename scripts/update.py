@@ -210,6 +210,31 @@ def parse_date(value: object) -> str | None:
         return None
 
 
+def expiration_date(item: dict[str, object]) -> object:
+    for key in (
+        "validThrough",
+        "valid_through",
+        "expirationDate",
+        "expiration_date",
+        "expiresAt",
+        "expires_at",
+        "expires",
+        "expiryDate",
+        "expiry_date",
+        "applicationDeadline",
+        "application_deadline",
+        "applicationEndDate",
+        "application_end_date",
+        "closingDate",
+        "closing_date",
+        "close_date",
+        "deadline",
+    ):
+        if item.get(key):
+            return item[key]
+    return None
+
+
 def clean(value: object, default: str = "—") -> str:
     text = re.sub(r"\s+", " ", html.unescape(str(value or "")).strip())
     return text or default
@@ -224,8 +249,12 @@ def normalize(
     url: object,
     posted: object,
     active: bool = True,
+    expires: object = None,
 ) -> dict[str, object] | None:
     if not active or not title or not url:
+        return None
+    expires_on = parse_date(expires)
+    if expires_on and dt.date.fromisoformat(expires_on) < NOW.date():
         return None
     return {
         "company": clean(company),
@@ -252,6 +281,7 @@ def parse_greenhouse(source: str, payload: dict[str, object]) -> list[dict[str, 
             location=(item.get("location") or {}).get("name") if isinstance(item.get("location"), dict) else item.get("location"),
             url=item.get("absolute_url"),
             posted=item.get("updated_at"),
+            expires=expiration_date(item),
         )
         if job:
             jobs.append(job)
@@ -270,6 +300,7 @@ def parse_amazon(payload: dict[str, object]) -> list[dict[str, object]]:
             location=item.get("location"),
             url=urljoin("https://www.amazon.jobs", item.get("job_path", "")),
             posted=item.get("posted_date") or item.get("updated_time"),
+            expires=expiration_date(item),
         )
         if job:
             jobs.append(job)
@@ -288,6 +319,7 @@ def parse_workday(source: str, payload: dict[str, object], company: str) -> list
             location=item.get("locationsText") or item.get("location"),
             url=urljoin("https://nvidia.wd5.myworkdayjobs.com", item.get("externalPath", "")),
             posted=item.get("postedOn"),
+            expires=expiration_date(item),
         )
         if job:
             jobs.append(job)
@@ -314,6 +346,7 @@ def parse_microsoft(payload: dict[str, object]) -> list[dict[str, object]]:
             location=locations,
             url=f"https://apply.careers.microsoft.com/careers/job/{job_id}" if job_id else None,
             posted=item.get("postingDate"),
+            expires=expiration_date(properties) or expiration_date(item),
         )
         if job and re.search(r"\bintern(ship)?\b|\bco-?op\b", str(job["title"]), re.I):
             jobs.append(job)
@@ -351,6 +384,7 @@ def parse_jsonld(source: str, text: str) -> list[dict[str, object]]:
                 location=location,
                 url=item.get("url"),
                 posted=item.get("datePosted"),
+                expires=expiration_date(item),
             )
             if job and re.search(r"\bintern(ship)?\b|\bco-?op\b", str(job["title"]), re.I):
                 jobs.append(job)
@@ -363,7 +397,7 @@ def parse_repo(source: str, kind: str, payload: object) -> list[dict[str, object
             job
             for item in payload.get("listings", [])
             if isinstance(item, dict)
-            for job in [normalize(source=source, company=item.get("company"), title=item.get("title"), location=item.get("location"), url=item.get("url"), posted=item.get("postedAt") or item.get("firstIndexedAt"))]
+            for job in [normalize(source=source, company=item.get("company"), title=item.get("title"), location=item.get("location"), url=item.get("url"), posted=item.get("postedAt") or item.get("firstIndexedAt"), expires=expiration_date(item))]
             if job
         ]
     if kind == "zshah":
@@ -371,7 +405,7 @@ def parse_repo(source: str, kind: str, payload: object) -> list[dict[str, object
             job
             for item in payload.values()
             if isinstance(item, dict)
-            for job in [normalize(source=source, company=item.get("company"), title=item.get("title"), location=item.get("location"), url=item.get("url"), posted=item.get("posted_at"), active=item.get("is_open", True))]
+            for job in [normalize(source=source, company=item.get("company"), title=item.get("title"), location=item.get("location"), url=item.get("url"), posted=item.get("posted_at"), active=item.get("is_open", True), expires=expiration_date(item))]
             if job
         ]
     if kind == "vansh":
@@ -379,7 +413,7 @@ def parse_repo(source: str, kind: str, payload: object) -> list[dict[str, object
             job
             for item in payload
             if isinstance(item, dict)
-            for job in [normalize(source=source, company=item.get("company_name"), title=item.get("title"), location=", ".join(item.get("locations", [])), url=item.get("url"), posted=item.get("date_posted"), active=item.get("active", True) and item.get("is_visible", True))]
+            for job in [normalize(source=source, company=item.get("company_name"), title=item.get("title"), location=", ".join(item.get("locations", [])), url=item.get("url"), posted=item.get("date_posted"), active=item.get("active", True) and item.get("is_visible", True), expires=expiration_date(item))]
             if job
         ]
     jobs = []
@@ -475,7 +509,7 @@ def render(jobs: list[dict[str, object]], statuses: list[dict[str, object]], gen
         f"> **{len(visible_jobs):,} newest open roles** (of {len(jobs):,} collected), sorted by reported posting date.",
         f"> Last updated: **{generated_at}**",
         "",
-        "Jobs are deduplicated by canonical application URL. Roles without a source-provided posting date appear last. The table is capped at the newest 4,000 roles so GitHub can render the README; the complete normalized snapshot is in [`data/jobs.json`](data/jobs.json).",
+        "Jobs are deduplicated by canonical application URL. Roles with a reported application deadline are removed after it expires; listings are refreshed regularly from their sources. Roles without a source-provided posting date appear last. The table is capped at the newest 4,000 roles so GitHub can render the README; the complete normalized snapshot is in [`data/jobs.json`](data/jobs.json).",
         "",
         *source_lines,
         "",
