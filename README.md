@@ -3,7 +3,7 @@
 > **4,000 newest open roles** (of 6,834 collected), sorted by reported posting date.
 > Last updated: **2026-11-24 20:51 UTC**
 
-Jobs are deduplicated by canonical application URL. Roles without a source-provided posting date appear last. The table is capped at the newest 4,000 roles so GitHub can render the README; the complete normalized snapshot is in [`data/jobs.json`](data/jobs.json).
+Jobs are deduplicated by canonical application URL. Roles with a reported application deadline are removed after it expires; listings are refreshed regularly from their sources. Roles without a source-provided posting date appear last. The table is capped at the newest 4,000 roles so GitHub can render the README; the complete normalized snapshot is in [`data/jobs.json`](data/jobs.json).
 
 ## Sources and access policy
 
