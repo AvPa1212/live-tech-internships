@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-25T04:07:30.391912+00:00",
+  "checked_at": "2026-11-25T14:53:56.124711+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -162,7 +162,7 @@
       "endpoint": "https://raw.githubusercontent.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/main/data/jobs.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 1222
+      "jobs": 1231
     },
     {
       "name": "Vansh",
@@ -170,7 +170,7 @@
       "endpoint": "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/.github/scripts/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2496
+      "jobs": 2492
     },
     {
       "name": "DereC4",
@@ -178,7 +178,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 3088
+      "jobs": 3130
     }
   ]
 }
