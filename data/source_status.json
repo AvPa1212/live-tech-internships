@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-27T18:53:24.558583+00:00",
+  "checked_at": "2026-11-28T01:55:31.871267+00:00",
   "sources": [
     {
       "name": "Amazon Jobs",
@@ -154,7 +154,7 @@
       "endpoint": "https://raw.githubusercontent.com/dreamworkhq/Tech-Internships-2027/main/data/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2071
+      "jobs": 2029
     },
     {
       "name": "Zshah",
@@ -170,7 +170,7 @@
       "endpoint": "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/.github/scripts/listings.json",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2468
+      "jobs": 2474
     },
     {
       "name": "DereC4",
@@ -178,7 +178,7 @@
       "endpoint": "https://raw.githubusercontent.com/DereC4/internships-and-newgrad/main/README.md",
       "policy_check": "robots.txt allows this public URL",
       "allowed": true,
-      "jobs": 2923
+      "jobs": 2889
     }
   ]
 }
